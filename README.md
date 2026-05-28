@@ -1,2 +1,2 @@
-# leopoldomejia2025-git.githun.io
+# leopoldomejia2025.github.io
 Mi pagina de prueba 
