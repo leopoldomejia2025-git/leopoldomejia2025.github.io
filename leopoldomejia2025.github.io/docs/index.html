@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio GitHub Pages leopoldomejia2025</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 500px;
+        }
+
+        h1 {
+            color: #24292e;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 24px;
+            border: none;
+            background: #2ea44f;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #22863a;
+        }
+
+        #mensaje {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #0366d6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 GitHub Pages funcionando</h1>
+
+    <p>
+        Esta página está publicada desde GitHub Pages.
+    </p>
+
+    <button onclick="mostrarMensaje()">
+        Probar JavaScript
+    </button>
+
+    <div id="mensaje"></div>
+</div>
+
+<script>
+    function mostrarMensaje() {
+        document.getElementById("mensaje").innerHTML =
+            "✅ JavaScript ejecutado correctamente";
+    }
+</script>
+
+</body>
+</html>
